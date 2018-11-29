@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+
+    <classes>
+	 <class name="suit.user_register_mailinator"/>
+      <class name="suit.open_browser_android"/>
+	 <class name="suit.user_registration"/> 
+     <!--  <class name="suit.user_sign_in"/>
+      <class name="suit.home_page"/>
+      <class name="suit.category_page"/>
+      <class name="suit.product_list"/>0
+      <class name="suit.mini_cart"/>
+      <class name="suit.view_cart"/>
+      <class name="suit.checkout"/>
+      <class name="suit.my_account"/>
+	 <class name="suit.close_browser"/> -->
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->
