@@ -47,9 +47,9 @@ public class excelWriter extends global_variables
 		{
 		case "Pass":
 		{	
-			String url="<img width='100px' src=\""+path_lib_screenshotfull+"\" data-src=\""+path_lib_screenshotfull+"\" data-featherlight=\""+path_lib_screenshotfull+"\">";			
+			/*String url="<img width='100px' src=\""+path_lib_screenshotfull+"\" data-src=\""+path_lib_screenshotfull+"\" data-featherlight=\""+path_lib_screenshotfull+"\">";			
 			String[][] desc= {{"Test ID","Descritpion","Expected Result","Actual Result","Screenshot"},{UseCase_ID+"_"+ Testcase_ID,Description,Expected_result,Actual,url}};						
-			qc_testinfo.log(Status.PASS, MarkupHelper.createTable(desc));
+			qc_testinfo.log(Status.PASS, MarkupHelper.createTable(desc));*/
 			break;
 		}
 		case "Fail":
