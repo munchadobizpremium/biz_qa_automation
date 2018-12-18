@@ -56,7 +56,7 @@ public class random_email {
 			 System.out.println(content.toString());
 			 con.disconnect();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 		return randomemail;

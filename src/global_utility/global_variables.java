@@ -37,7 +37,7 @@ public class global_variables extends ReportsManager{
 		}		
 		
 		log_system=Logger.getLogger(this.getClass().getName());
-		PropertyConfigurator.configure(SourcePath.getAbsolutePath()+"\\lib_properties\\log4j.properties");
+		PropertyConfigurator.configure(SourcePath.getAbsolutePath()+"/lib_properties/log4j.properties");
 		
 		
 	}
@@ -58,15 +58,15 @@ public class global_variables extends ReportsManager{
 	
 	
 	// declaring global variable protected
-	protected String path_lib_driver=SourcePath.getAbsolutePath()+"\\lib_driver\\";
-	protected String path_lib_properties=SourcePath.getAbsolutePath()+"\\lib_properties\\";
-	protected String path_lib_record=SourcePath.getAbsolutePath()+"\\lib_record\\";
-	protected String path_lib_screenshot=SourcePath.getAbsolutePath()+"\\lib_screenshot\\";
-	protected String path_lib_source=SourcePath.getAbsolutePath()+"\\lib_source\\";
-	protected String path_lib_testcase=SourcePath.getAbsolutePath()+"\\lib_testcase\\";
-	protected String path_lib_runner=SourcePath.getAbsolutePath()+"\\lib_template\\";
-	protected String path_lib_system_log=SourcePath.getAbsolutePath()+"\\system_log\\";
-	protected String path_lib_error_log=SourcePath.getAbsolutePath()+"\\error_log\\";
-	protected String path_lib_download=SourcePath.getAbsolutePath()+"\\lib_download\\";
-	protected String path_reports=SourcePath.getAbsolutePath()+"\\reports\\";
+	protected String path_lib_driver=SourcePath.getAbsolutePath()+"/lib_driver/";
+	protected String path_lib_properties=SourcePath.getAbsolutePath()+"/lib_properties/";
+	protected String path_lib_record=SourcePath.getAbsolutePath()+"/lib_record/";
+	protected String path_lib_screenshot=SourcePath.getAbsolutePath()+"/lib_screenshot/";
+	protected String path_lib_source=SourcePath.getAbsolutePath()+"/lib_source/";
+	protected String path_lib_testcase=SourcePath.getAbsolutePath()+"/lib_testcase/";
+	protected String path_lib_runner=SourcePath.getAbsolutePath()+"/lib_template/";
+	protected String path_lib_system_log=SourcePath.getAbsolutePath()+"/system_log/";
+	protected String path_lib_error_log=SourcePath.getAbsolutePath()+"/error_log/";
+	protected String path_lib_download=SourcePath.getAbsolutePath()+"/lib_download/";
+	protected String path_reports=SourcePath.getAbsolutePath()+"/reports/";
 }

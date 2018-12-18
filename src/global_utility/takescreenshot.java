@@ -25,7 +25,7 @@ public class takescreenshot extends global_variables
 			
 			 Path path = FileSystems.getDefault().getPath(screenpath, Filename+".png");
 				if(Files.deleteIfExists(path));
-			 // now copy the  screenshot to desired location using copyFile //method
+
 			FileUtils.copyFile(src, new File(screenpath+"\\"+Filename+"_"+dtf.format(now).toString()+".png"));
 			path_lib_screenshotfull=screenpath+"\\"+Filename+"_"+dtf.format(now)+".png";
 			}
