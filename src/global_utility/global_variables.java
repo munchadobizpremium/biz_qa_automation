@@ -44,20 +44,20 @@ public class global_variables extends ReportsManager{
 	
 	
 	
-	// system framework path object
+	/*system framework path object*/
 	public File SourcePath=new File(System.getProperty("user.dir"));
 	public static Logger log_system;	
 	public static LinkedHashMap<String, gs_utilities.productdetails> ProductDetails=new LinkedHashMap<String, gs_utilities.productdetails>();
 	
 	
-	// declaring static variables
+	/*declaring static variables*/
 	public static WebDriver Driver;
 	public static String path_lib_screenshotfull=null;
 	public static String mainwindow = null;
 	
 	
 	
-	// declaring global variable protected
+	/* declaring global variable protected*/
 	protected String path_lib_driver=SourcePath.getAbsolutePath()+"/lib_driver/";
 	protected String path_lib_properties=SourcePath.getAbsolutePath()+"/lib_properties/";
 	protected String path_lib_record=SourcePath.getAbsolutePath()+"/lib_record/";
