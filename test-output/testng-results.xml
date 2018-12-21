@@ -2,35 +2,35 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5559351" started-at="2018-11-30T08:47:23Z" finished-at="2018-11-30T10:20:02Z">
+  <suite name="Failed suite [Default suite]" duration-ms="614209" started-at="2018-12-21T12:23:59Z" finished-at="2018-12-21T12:34:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5559351" started-at="2018-11-30T08:47:23Z" finished-at="2018-11-30T10:20:02Z">
+    <test name="Default test" duration-ms="614209" started-at="2018-12-21T12:23:59Z" finished-at="2018-12-21T12:34:14Z">
       <class name="suit.runner">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:suit.runner@7494e528]" name="Setup" is-config="true" duration-ms="881" started-at="2018-11-30T14:17:22Z" finished-at="2018-11-30T14:17:23Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:suit.runner@70e9c95d]" name="Setup" is-config="true" duration-ms="2386" started-at="2018-12-21T12:23:57Z" finished-at="2018-12-21T12:23:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="Runner()[pri:0, instance:suit.runner@7494e528]" name="Runner" duration-ms="5559318" started-at="2018-11-30T14:17:23Z" finished-at="2018-11-30T15:50:02Z">
+        <test-method status="PASS" signature="Runner()[pri:0, instance:suit.runner@70e9c95d]" name="Runner" duration-ms="614194" started-at="2018-12-21T12:23:59Z" finished-at="2018-12-21T12:34:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Runner -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:suit.runner@7494e528]" name="getResult" is-config="true" duration-ms="5" started-at="2018-11-30T15:50:02Z" finished-at="2018-11-30T15:50:02Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:suit.runner@70e9c95d]" name="getResult" is-config="true" duration-ms="1" started-at="2018-12-21T12:34:14Z" finished-at="2018-12-21T12:34:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Runner status=SUCCESS method=runner.Runner()[pri:0, instance:suit.runner@7494e528] output={null}]]]>
+                <![CDATA[[TestResult name=Runner status=SUCCESS method=runner.Runner()[pri:0, instance:suit.runner@70e9c95d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:suit.runner@7494e528]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-30T15:50:03Z" finished-at="2018-11-30T15:50:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:suit.runner@70e9c95d]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-21T12:34:14Z" finished-at="2018-12-21T12:34:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- suit.runner -->
     </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+  </suite> <!-- Failed suite [Default suite] -->
 </testng-results>
