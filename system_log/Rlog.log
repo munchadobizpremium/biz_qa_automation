@@ -1,7 +1,7 @@
-2018-12-21 12:11:40,462 - reader_writer.excelReader -INFO - ******************** Executing Start for Template_6 ********************************
-2018-12-21 12:11:40,468 - reader_writer.excelReader -INFO - ******************** Client Name The Country Caf ****************************
-2018-12-21 12:11:40,468 - reader_writer.excelReader -INFO - ********************  Open Browser **************************
-2018-12-21 12:11:40,525 - reader_writer.excelReader -ERROR - System is not able to execute Script or Exception found in automation script
-2018-12-21 12:11:40,526 - reader_writer.excelReader -ERROR - [Ljava.lang.StackTraceElement;@5a39e554
-2018-12-21 12:11:40,526 - reader_writer.excelReader -ERROR - The driver is not executable: /var/lib/jenkins/workspace/microsites/lib_driver/chromedriver.exe
-2018-12-21 12:11:40,526 - reader_writer.excelReader -ERROR - [Ljava.lang.StackTraceElement;@333d44f6
+2018-12-21 12:17:05,186 - reader_writer.excelReader -INFO - ******************** Executing Start for Template_6 ********************************
+2018-12-21 12:17:05,192 - reader_writer.excelReader -INFO - ******************** Client Name The Country Caf ****************************
+2018-12-21 12:17:05,193 - reader_writer.excelReader -INFO - ********************  Open Browser **************************
+2018-12-21 12:17:05,256 - reader_writer.excelReader -ERROR - System is not able to execute Script or Exception found in automation script
+2018-12-21 12:17:05,257 - reader_writer.excelReader -ERROR - [Ljava.lang.StackTraceElement;@5a39e554
+2018-12-21 12:17:05,257 - reader_writer.excelReader -ERROR - The driver is not executable: /var/lib/jenkins/workspace/microsites/lib_driver/chromedriver.exe
+2018-12-21 12:17:05,257 - reader_writer.excelReader -ERROR - [Ljava.lang.StackTraceElement;@333d44f6
