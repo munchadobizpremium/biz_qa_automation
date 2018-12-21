@@ -25,6 +25,7 @@ public class action_gallery extends global_variables{
 			
 			
 			WebElement hamburger=Driver.findElement(By.xpath("//i[normalize-space(@class) = 'i_hamburger']"));
+			/*WebElement hamburger=Driver.findElement(By.cssSelector("i[class='i_hamburger']"));*/
 			WebElement ele_gallery=null;		
 			if(hamburger.isDisplayed())
 			{
@@ -42,9 +43,10 @@ public class action_gallery extends global_variables{
 			}
 			
 				
-			if(!ele_gallery.isDisplayed() && !hamburger.isDisplayed())
+			if(!ele_gallery.isDisplayed() && !hamburger.isDisplayed()) {
 				Driver.findElement(By.xpath("//i[normalize-space(@class) = 'i_downstyle']")).click();
-			
+				/*Driver.findElement(By.cssSelector("i[class='i_downstyle']")).click();*/
+			}
 			act.moveToElement(ele_gallery).build().perform();
 			Status=common_action.Click(ele_gallery);
 			handle_ajax_call.HandleAjaxCall();
@@ -65,6 +67,7 @@ public class action_gallery extends global_variables{
 				
 				WebElement ele_gallery_nxt_btn=Driver.findElement(By.xpath("//div[normalize-space(@id) = 'gallery']"));
 				ele_gallery_nxt_btn=ele_gallery_nxt_btn.findElement(By.xpath(".//div[normalize-space(@class) = 'owl-next']"));
+				
 				act.moveToElement(ele_gallery_nxt_btn).build().perform();
 				common_action.Click(ele_gallery_nxt_btn);
 				handle_ajax_call.HandleAjaxCall();

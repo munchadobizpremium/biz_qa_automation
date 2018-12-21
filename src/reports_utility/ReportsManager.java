@@ -34,13 +34,13 @@ public class ReportsManager{
 	public void Setup()
 	{
 		htmlRepoter =new ExtentHtmlReporter(new File(System.getProperty("user.dir") +"/reports/testReport.html"));
-		htmlRepoter.loadXMLConfig(new File(System.getProperty("user.dir")+"\\extent-config.xml"));
+		htmlRepoter.loadXMLConfig(new File(System.getProperty("user.dir")+"/extent-config.xml"));
 		reports=new ExtentReports();
 		
 		reports.attachReporter(htmlRepoter);
 		
 		qc_htmlRepoter =new ExtentHtmlReporter(new File(System.getProperty("user.dir") +"/reports/qc_testReport.html"));
-		qc_htmlRepoter.loadXMLConfig(new File(System.getProperty("user.dir")+"\\extent-config.xml"));
+		qc_htmlRepoter.loadXMLConfig(new File(System.getProperty("user.dir")+"/extent-config.xml"));
 		qc_reports=new ExtentReports();
 		
 		qc_reports.attachReporter(qc_htmlRepoter);

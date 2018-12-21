@@ -16,7 +16,8 @@ public class executer extends global_variables{
 	reader_writer.excelWriter writer=new reader_writer.excelWriter();
 	template_testcase testcase=new template_testcase();
 	public void executer_selector(HashMap<String, runner> executable) throws IOException
-	{						Properties prop=new Properties();
+	{						
+		Properties prop=new Properties();
 		InputStream in=new FileInputStream(path_lib_properties+"path_testcase.properties");
 		prop.load(in);
 		

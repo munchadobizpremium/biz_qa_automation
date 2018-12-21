@@ -37,7 +37,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -53,7 +53,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -95,7 +95,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -110,7 +110,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -125,7 +125,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -140,7 +140,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -155,7 +155,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -170,7 +170,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -186,7 +186,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -201,7 +201,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -217,7 +217,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -232,7 +232,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;			
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -247,7 +247,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -262,7 +262,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -277,7 +277,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -292,7 +292,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -308,7 +308,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -324,7 +324,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -340,7 +340,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -356,7 +356,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -372,7 +372,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}
@@ -387,7 +387,7 @@ public class template_testcase extends global_variables{
 			log_system.error(e.getMessage());
 			Status=0;
 		}
-		getscreenshot.screenshot(path_lib_screenshot+Client+"\\", Thread.currentThread().getStackTrace()[1].getMethodName());
+		getscreenshot.screenshot(path_lib_screenshot+Client+"/", Thread.currentThread().getStackTrace()[1].getMethodName());
 		common_action.updateReport(Status,Thread.currentThread().getStackTrace()[1].getMethodName());
 		return Status;
 	}

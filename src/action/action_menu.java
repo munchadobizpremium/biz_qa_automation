@@ -19,6 +19,7 @@ public class action_menu extends global_variables {
 		ArrayList<String> errorlog=new ArrayList<String>();
 		Actions act=new Actions(Driver);
 		WebElement hamburger=Driver.findElement(By.xpath("//i[normalize-space(@class) = 'i_hamburger']"));
+		/*WebElement hamburger=Driver.findElement(By.cssSelector("i[class='i_hamburger']"));*/
 		WebElement menu_container=null;
 		List<WebElement> menuList=null;
 		
@@ -28,22 +29,27 @@ public class action_menu extends global_variables {
 					try {
 						hamburger.click();
 						menu_container=Driver.findElement(By.xpath("//ul[normalize-space(@class) = 'unstyled navbar nav']"));
+						/*menu_container=Driver.findElement(By.cssSelector("ul[class='.unstyled.navbar.nav']"));*/
 						menuList=menu_container.findElements(By.tagName("a"));
 					} catch (Exception e) {
 						menu_container=Driver.findElement(By.xpath("//ul[normalize-space(@class) = 'unstyled navbar nav']"));
+						/*menu_container=Driver.findElement(By.cssSelector("ul[class='unstyled navbar nav']"));*/
 						menuList=menu_container.findElements(By.tagName("a"));
 					}
 			}
 			else
 			{
 				menu_container=Driver.findElement(By.xpath("//ul[normalize-space(@class) = 'unstyled navbar nav']"));
+				/*menu_container=Driver.findElement(By.cssSelector("ul[class='unstyled navbar nav']"));*/
 				menuList=menu_container.findElements(By.tagName("a"));
 			}
 			
 				
-			if(!menu_container.isDisplayed() && !hamburger.isDisplayed())
+			if(!menu_container.isDisplayed() && !hamburger.isDisplayed()) {
 				Driver.findElement(By.xpath("//i[normalize-space(@class) = 'i_downstyle']")).click();
-		
+				/*Driver.findElement(By.cssSelector("i[class='i_downstyle']")).click();*/
+			}
+			
 			ArrayList<String> menuList_collection=new ArrayList<String>();
 			for(WebElement menu:menuList)
 			{						
@@ -62,7 +68,8 @@ public class action_menu extends global_variables {
 				handle_ajax_call.HandleAjaxCall();
 				Thread.sleep(2000);
 				WebElement menu = Driver.findElement(By.xpath("//ul[normalize-space(@class) = 'unstyled navbar nav']"));
-				menu=menu.findElement(By.xpath(".//a[normalize-space(@data-target) = '"+menutxt+"'] | .//a[normalize-space(@data-gtmd) = '"+menutxt+"'] | .//a[contains(text(),'"+menutxt+"')]"));
+				/*WebElement menu =Driver.findElement(By.cssSelector("ul[class='unstyled navbar nav']"));*/
+				menu=menu.findElement(By.xpath(".//a[normalize-space(@data-target) = '"+menutxt+"'] | .//a[normalize-space(@data-gtmd) = '"+menutxt+"'] | .//a[contains(text(),'"+menutxt+"')]"));				
 				hamburger=Driver.findElement(By.xpath("//i[normalize-space(@class) = 'i_hamburger']"));
 				try {
 					if(hamburger.isDisplayed() && !menu.isDisplayed())

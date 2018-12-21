@@ -38,8 +38,7 @@ public class global_variables extends ReportsManager{
 		
 		log_system=Logger.getLogger(this.getClass().getName());
 		PropertyConfigurator.configure(SourcePath.getAbsolutePath()+"/lib_properties/log4j.properties");
-		
-		
+				
 	}
 	
 	

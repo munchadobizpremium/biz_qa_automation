@@ -32,7 +32,7 @@ public class SpecializedScreenRecorder extends ScreenRecorder{
           } else if (!movieFolder.isDirectory()) {
                 throw new IOException("\"" + movieFolder + "\" is not a directory.");
           }
-          Path path = FileSystems.getDefault().getPath(movieFolder+"//"+ name+"."
+          Path path = FileSystems.getDefault().getPath(movieFolder+"/"+ name+"."
                   + Registry.getInstance().getExtension(fileFormat));
 			if(Files.deleteIfExists(path));           
                          

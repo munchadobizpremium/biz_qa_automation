@@ -73,5 +73,7 @@
 	<classpathentry kind="lib" path="D:/Akash/aislend/CityMarket/lib/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="lib" path="D:/Akash/aislend/CityMarket/lib/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="lib" path="D:/Akash/aislend/CityMarket/lib/zip-5.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Akash/BizQC/microsites/lib/activation.jar"/>
+	<classpathentry kind="lib" path="D:/Akash/BizQC/microsites/lib/java-mail-1.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -38,14 +38,25 @@ public class action_openBrowser extends global_variables{
 				    chromePrefs.put("download.default_directory", path_lib_download);
 				    ChromeOptions options = new ChromeOptions();
 				    HashMap<String, Object> chromeOptionsMap = new HashMap<String, Object>();
-				    options.setExperimentalOption("prefs", chromePrefs);
-				    options.addArguments("start-maximized");
+				    options.setExperimentalOption("prefs", chromePrefs);				    
+				    options.addArguments("start-maximized"); // open Browser in maximized mode
+				    options.addArguments("--incognito");				    
+				    options.addArguments("--headless");				    
+				    options.addArguments("--disable-java");
+				    options.addArguments("disable-infobars"); // disabling infobars
+				    options.addArguments("--disable-extensions"); // disabling extensions
+				    options.addArguments("--disable-gpu"); // applicable to windows os only
+				    options.addArguments("--test-type"); // overcome limited resource problems
+				    options.addArguments("--no-sandbox"); // Bypass OS security model
+				    options.addArguments("--no-zygote"); // Bypass OS security model  
+				    options.addArguments("window-size=1200,1100");
+				    
 				    DesiredCapabilities cap = DesiredCapabilities.chrome();
 				    cap.setCapability(ChromeOptions.CAPABILITY, chromeOptionsMap);
 				    cap.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 				    cap.setCapability(ChromeOptions.CAPABILITY, options);				    
 				    Driver = new ChromeDriver(cap);				    
-				    Driver.manage().deleteAllCookies();
+				    Driver.manage().deleteAllCookies();				    
 				    Status=1;
 				    mainwindow=Driver.getWindowHandle();
 				    log_system.info("Browser Open Successful");
@@ -96,7 +107,7 @@ public class action_openBrowser extends global_variables{
 				    ChromeOptions options = new ChromeOptions();
 				    HashMap<String, Object> chromeOptionsMap = new HashMap<String, Object>();
 				    options.setExperimentalOption("prefs", chromePrefs);
-				    options.addArguments("start-maximized");
+				    options.addArguments("start-maximized"); // open Browser in maximized mode				    				    
 					DesiredCapabilities caps = new DesiredCapabilities();
 					caps.setCapability(ChromeOptions.CAPABILITY, chromeOptionsMap);
 				    caps.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
