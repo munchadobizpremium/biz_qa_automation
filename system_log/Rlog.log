@@ -1,33 +1,7 @@
-2018-12-21 14:10:15,470 - reader_writer.excelReader -INFO - ******************** Executing Start for Template_6 ********************************
-2018-12-21 14:10:15,474 - reader_writer.excelReader -INFO - ******************** Client Name The Country Caf ****************************
-2018-12-21 14:10:15,474 - reader_writer.excelReader -INFO - ********************  Open Browser **************************
-2018-12-21 14:10:21,639 - reader_writer.excelReader -INFO - Browser Open Successful
-2018-12-21 14:10:21,966 - reader_writer.excelReader -INFO - Status of Open Browser 1
-2018-12-21 14:10:21,967 - reader_writer.excelReader -INFO - Open URL https://qc-thecountrycafe.munchado.nyc/
-2018-12-21 14:10:35,275 - reader_writer.excelReader -INFO - URL opened successfully
-2018-12-21 14:10:36,232 - reader_writer.excelReader -INFO - Status of get url 1
-2018-12-21 14:10:36,232 - reader_writer.excelReader -INFO - ********************  Verify SSL ************************ 
-2018-12-21 14:10:36,238 - reader_writer.excelReader -INFO - SSL verified successfully
-2018-12-21 14:10:36,238 - reader_writer.excelReader -INFO - Status of Verify SSL 1
-2018-12-21 14:10:36,239 - reader_writer.excelReader -INFO - ********************  Consol Error ************************ 
-2018-12-21 14:10:36,245 - reader_writer.excelReader -WARN - Warning Message in Console:deprecation - HTML Imports is deprecated and will be removed in M73, around March 2019. Please use ES modules instead. See https://www.chromestatus.com/features/5144752345317376 for more details.
-2018-12-21 14:10:36,245 - reader_writer.excelReader -WARN - Warning Message in Console:https://maps.googleapis.com/maps-api-v3/api/js/35/6/util.js 218:47 "Google Maps JavaScript API warning: RetiredVersion https://developers.google.com/maps/documentation/javascript/error-messages#retired-version"
-2018-12-21 14:10:36,246 - reader_writer.excelReader -INFO - Consol Error verified successfully
-2018-12-21 14:10:37,337 - reader_writer.excelReader -INFO - Status of Console Error 1
-2018-12-21 14:10:37,339 - reader_writer.excelReader -INFO - ********************  Verify Menu ************************ 
-2018-12-21 14:11:02,170 - reader_writer.excelReader -INFO - Status of Verify Menu 1
-2018-12-21 14:11:02,170 - reader_writer.excelReader -INFO - ********************  Verify Career ************************ 
-2018-12-21 14:11:02,973 - reader_writer.excelReader -INFO - Status of Verify Career 2
-2018-12-21 14:11:02,973 - reader_writer.excelReader -INFO - ********************  Verify Gallery ************************ 
-2018-12-21 14:11:10,831 - reader_writer.excelReader -INFO - Status of Verify Gallery 1
-2018-12-21 14:11:10,831 - reader_writer.excelReader -INFO - ********************  Verify Menu Item ************************ 
-2018-12-21 14:11:43,684 - reader_writer.excelReader -INFO - Status of Verify Menu Item 1
-2018-12-21 14:11:43,684 - reader_writer.excelReader -INFO - ******************** Add Product ************************ 
-2018-12-21 14:12:04,080 - reader_writer.excelReader -INFO - Status of Add Product 1
-2018-12-21 14:12:04,080 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
-2018-12-21 14:12:22,501 - reader_writer.excelReader -INFO - Status of Add Product 1
-2018-12-21 14:12:22,501 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
-2018-12-21 14:12:40,063 - reader_writer.excelReader -INFO - Status of Add Product 1
-2018-12-21 14:12:40,063 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
-2018-12-21 14:12:58,028 - reader_writer.excelReader -INFO - Status of Add Product 1
-2018-12-21 14:12:58,028 - reader_writer.excelReader -INFO - ********************  Verify Summary ************************ 
+2018-12-21 12:04:33,012 - reader_writer.excelReader -INFO - ******************** Executing Start for Template_6 ********************************
+2018-12-21 12:04:33,017 - reader_writer.excelReader -INFO - ******************** Client Name The Country Caf ****************************
+2018-12-21 12:04:33,017 - reader_writer.excelReader -INFO - ********************  Open Browser **************************
+2018-12-21 12:04:33,075 - reader_writer.excelReader -ERROR - System is not able to execute Script or Exception found in automation script
+2018-12-21 12:04:33,075 - reader_writer.excelReader -ERROR - [Ljava.lang.StackTraceElement;@45b96e4c
+2018-12-21 12:04:33,075 - reader_writer.excelReader -ERROR - The driver is not executable: /var/lib/jenkins/workspace/microsites/lib_driver/chromedriver.exe
+2018-12-21 12:04:33,076 - reader_writer.excelReader -ERROR - [Ljava.lang.StackTraceElement;@8383a14
