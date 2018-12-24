@@ -1,101 +1,100 @@
-2018-12-21 13:38:23,228 - reader_writer.excelReader -INFO - ******************** Executing Start for Template_6 ********************************
-2018-12-21 13:38:23,235 - reader_writer.excelReader -INFO - ******************** Client Name The Country Caf ****************************
-2018-12-21 13:38:23,235 - reader_writer.excelReader -INFO - ********************  Open Browser **************************
-2018-12-21 13:38:25,780 - reader_writer.excelReader -INFO - Browser Open Successful
-2018-12-21 13:38:25,912 - reader_writer.excelReader -INFO - Status of Open Browser 1
-2018-12-21 13:38:25,912 - reader_writer.excelReader -INFO - Open URL https://qc-thecountrycafe.munchado.nyc/
-2018-12-21 13:38:36,093 - reader_writer.excelReader -INFO - URL opened successfully
-2018-12-21 13:38:37,184 - reader_writer.excelReader -INFO - Status of get url 1
-2018-12-21 13:38:37,184 - reader_writer.excelReader -INFO - ********************  Verify SSL ************************ 
-2018-12-21 13:38:37,191 - reader_writer.excelReader -INFO - SSL verified successfully
-2018-12-21 13:38:37,192 - reader_writer.excelReader -INFO - Status of Verify SSL 1
-2018-12-21 13:38:37,192 - reader_writer.excelReader -INFO - ********************  Consol Error ************************ 
-2018-12-21 13:38:37,198 - reader_writer.excelReader -WARN - Warning Message in Console:deprecation - HTML Imports is deprecated and will be removed in M73, around March 2019. Please use ES modules instead. See https://www.chromestatus.com/features/5144752345317376 for more details.
-2018-12-21 13:38:37,199 - reader_writer.excelReader -WARN - Warning Message in Console:https://maps.googleapis.com/maps-api-v3/api/js/35/6/util.js 218:47 "Google Maps JavaScript API warning: RetiredVersion https://developers.google.com/maps/documentation/javascript/error-messages#retired-version"
-2018-12-21 13:38:37,199 - reader_writer.excelReader -INFO - Consol Error verified successfully
-2018-12-21 13:38:38,017 - reader_writer.excelReader -INFO - Status of Console Error 1
-2018-12-21 13:38:38,020 - reader_writer.excelReader -INFO - ********************  Verify Menu ************************ 
-2018-12-21 13:39:01,772 - reader_writer.excelReader -INFO - Status of Verify Menu 1
-2018-12-21 13:39:01,772 - reader_writer.excelReader -INFO - ********************  Verify Career ************************ 
-2018-12-21 13:39:02,263 - reader_writer.excelReader -INFO - Status of Verify Career 2
-2018-12-21 13:39:02,263 - reader_writer.excelReader -INFO - ********************  Verify Gallery ************************ 
-2018-12-21 13:39:08,349 - reader_writer.excelReader -INFO - Status of Verify Gallery 1
-2018-12-21 13:39:08,349 - reader_writer.excelReader -INFO - ********************  Verify Menu Item ************************ 
-2018-12-21 13:39:36,341 - reader_writer.excelReader -INFO - Status of Verify Menu Item 1
-2018-12-21 13:39:36,342 - reader_writer.excelReader -INFO - ******************** Add Product ************************ 
-2018-12-21 13:39:54,070 - reader_writer.excelReader -INFO - Status of Add Product 1
-2018-12-21 13:39:54,071 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
-2018-12-21 13:40:09,786 - reader_writer.excelReader -INFO - Status of Add Product 1
-2018-12-21 13:40:09,787 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
-2018-12-21 13:40:25,364 - reader_writer.excelReader -INFO - Status of Add Product 1
-2018-12-21 13:40:25,364 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
-2018-12-21 13:40:40,837 - reader_writer.excelReader -INFO - Status of Add Product 1
-2018-12-21 13:40:40,837 - reader_writer.excelReader -INFO - ********************  Verify Summary ************************ 
-2018-12-21 13:40:44,618 - reader_writer.excelReader -INFO - Status of Verify Summary 1
-2018-12-21 13:40:44,619 - reader_writer.excelReader -INFO - ******************** Add Edit Product ************************ 
-2018-12-21 13:40:56,952 - reader_writer.excelReader -INFO - Status of Add Edit Product 1
-2018-12-21 13:40:56,952 - reader_writer.excelReader -INFO - ******************** Remove Edit Product ************************ 
-2018-12-21 13:41:08,950 - reader_writer.excelReader -INFO - Status of Remove Edit Product 1
-2018-12-21 13:41:08,950 - reader_writer.excelReader -INFO - ********************  Verify Summary ************************ 
-2018-12-21 13:41:12,883 - reader_writer.excelReader -INFO - Status of Verify Summary 1
-2018-12-21 13:41:12,883 - reader_writer.excelReader -INFO - ******************** Verify Delivery Time ************************ 
-2018-12-21 13:41:13,284 - reader_writer.excelReader -INFO - Status of Verify Delivery Time 0
-2018-12-21 13:41:13,284 - reader_writer.excelReader -INFO - ******************** Delete Product ************************ 
-2018-12-21 13:41:16,747 - reader_writer.excelReader -INFO - Status of Delete Product 1
-2018-12-21 13:41:16,748 - reader_writer.excelReader -INFO - ******************** Delete All Product ************************ 
-2018-12-21 13:41:24,807 - reader_writer.excelReader -INFO - Status of Delete All Product 1
-2018-12-21 13:41:24,808 - reader_writer.excelReader -INFO - ******************** Verify Summary ************************ 
-2018-12-21 13:41:28,136 - reader_writer.excelReader -INFO - Status of verify Summary 1
-2018-12-21 13:41:28,137 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
-2018-12-21 13:41:46,155 - reader_writer.excelReader -INFO - Status of Add Product 1
-2018-12-21 13:41:46,156 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
-2018-12-21 13:42:06,552 - reader_writer.excelReader -INFO - Status of Add Product 1
-2018-12-21 13:42:06,552 - reader_writer.excelReader -INFO - ******************** Verify Checkout for takeout with edit ************************ 
-2018-12-21 13:42:47,621 - reader_writer.excelReader -INFO - Status of checkout for Takeout 1
-2018-12-21 13:42:47,622 - reader_writer.excelReader -INFO - ******************** Delete All Product ************************ 
-2018-12-21 13:42:53,352 - reader_writer.excelReader -INFO - Status of Delete All Product 1
-2018-12-21 13:42:53,352 - reader_writer.excelReader -INFO - ******************** verify Delivery ************************ 
-2018-12-21 13:43:20,835 - reader_writer.excelReader -INFO - Status of Verify Delivery 1
-2018-12-21 13:43:20,836 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
-2018-12-21 13:43:36,563 - reader_writer.excelReader -INFO - Status of Add Product 1
-2018-12-21 13:43:36,563 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
-2018-12-21 13:43:52,191 - reader_writer.excelReader -INFO - Status of Add Product 1
-2018-12-21 13:43:52,192 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
-2018-12-21 13:44:07,828 - reader_writer.excelReader -INFO - Status of Add Product 1
-2018-12-21 13:44:07,829 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
-2018-12-21 13:44:26,042 - reader_writer.excelReader -INFO - Status of Add Product 1
-2018-12-21 13:44:26,043 - reader_writer.excelReader -INFO - ******************** Add Edit Product ************************ 
-2018-12-21 13:44:37,990 - reader_writer.excelReader -INFO - Status of Add Edit Product 1
-2018-12-21 13:44:37,991 - reader_writer.excelReader -INFO - ******************** Remove Edit Product ************************ 
-2018-12-21 13:44:53,207 - reader_writer.excelReader -INFO - Status of Remove Edit Product 1
-2018-12-21 13:44:53,207 - reader_writer.excelReader -INFO - ******************** Delete Product ************************ 
-2018-12-21 13:44:56,623 - reader_writer.excelReader -INFO - Status of Delete Product 1
-2018-12-21 13:44:56,623 - reader_writer.excelReader -INFO - ******************** Verify Delivery Time ************************ 
-2018-12-21 13:44:56,911 - reader_writer.excelReader -INFO - Status of Verify Delivery Time 0
-2018-12-21 13:44:56,911 - reader_writer.excelReader -INFO - ******************** Verify Summary for Delivery ************************ 
-2018-12-21 13:45:00,840 - reader_writer.excelReader -INFO - Status of Verify Summary Delivery 1
-2018-12-21 13:45:00,841 - reader_writer.excelReader -INFO - ******************** Verify Checkout for Delivery ************************ 
-2018-12-21 13:45:11,053 - reader_writer.excelReader -ERROR - Incorrect takeout time is appearing on the screen
-2018-12-21 13:45:16,134 - reader_writer.excelReader -INFO - Status of checkout for Delivery 0
-2018-12-21 13:45:16,134 - reader_writer.excelReader -INFO - ******************** Delete All Product ************************ 
-2018-12-21 13:45:17,303 - reader_writer.excelReader -INFO - Status of Delete All Product 1
-2018-12-21 13:45:17,304 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
-2018-12-21 13:45:32,995 - reader_writer.excelReader -INFO - Status of Add Product 1
-2018-12-21 13:45:32,995 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************
-2018-12-21 13:45:48,533 - reader_writer.excelReader -INFO - Status of Add Product 1
-2018-12-21 13:45:48,533 - reader_writer.excelReader -INFO - ******************** Add Edit Product ************************
-2018-12-21 13:46:00,450 - reader_writer.excelReader -INFO - Status of Add Edit Product 1
-2018-12-21 13:46:00,451 - reader_writer.excelReader -INFO - ******************** Click on takeout ************************
-2018-12-21 13:46:03,767 - reader_writer.excelReader -INFO - Status of Click on Takeout 1
-2018-12-21 13:46:03,768 - reader_writer.excelReader -INFO - ******************** Verify Checkout for takeout ************************
-2018-12-21 13:46:03,801 - reader_writer.excelReader -ERROR - Execution failed for checkout of takeout
-2018-12-21 13:46:03,801 - reader_writer.excelReader -ERROR - For input string: ""
-2018-12-21 13:46:03,978 - reader_writer.excelReader -INFO - Status of checkout for Takeout 0
-2018-12-21 13:46:03,978 - reader_writer.excelReader -INFO - ******************** Reserve A Table ************************
-2018-12-21 13:46:52,562 - reader_writer.excelReader -INFO - Status of Reserve A Table 1
-2018-12-21 13:46:52,563 - reader_writer.excelReader -INFO - ******************** verify timeslot for reserve a table ************************
-2018-12-21 13:47:12,926 - reader_writer.excelReader -INFO - Status of Time for Reserve A Table 1
-2018-12-21 13:47:12,927 - reader_writer.excelReader -INFO - ******************** Closing Browser ************************
-2018-12-21 13:47:13,034 - reader_writer.excelReader -INFO - Browser Closed successfully
-2018-12-21 13:47:13,034 - reader_writer.excelReader -INFO - Execution Complete for template Template_6
-2018-12-21 13:47:13,034 - reader_writer.excelReader -INFO - Execution Complete for client The Country Caf
+2018-12-24 08:25:31,043 - reader_writer.excelReader -INFO - ******************** Executing Start for Template_6 ********************************
+2018-12-24 08:25:31,050 - reader_writer.excelReader -INFO - ******************** Client Name The Country Caf ****************************
+2018-12-24 08:25:31,050 - reader_writer.excelReader -INFO - ********************  Open Browser **************************
+2018-12-24 08:25:33,536 - reader_writer.excelReader -INFO - Browser Open Successful
+2018-12-24 08:25:33,669 - reader_writer.excelReader -INFO - Status of Open Browser 1
+2018-12-24 08:25:33,669 - reader_writer.excelReader -INFO - Open URL https://qc-thecountrycafe.munchado.nyc/
+2018-12-24 08:25:43,283 - reader_writer.excelReader -INFO - URL opened successfully
+2018-12-24 08:25:44,148 - reader_writer.excelReader -INFO - Status of get url 1
+2018-12-24 08:25:44,148 - reader_writer.excelReader -INFO - ********************  Verify SSL ************************ 
+2018-12-24 08:25:44,157 - reader_writer.excelReader -INFO - SSL verified successfully
+2018-12-24 08:25:44,157 - reader_writer.excelReader -INFO - Status of Verify SSL 1
+2018-12-24 08:25:44,157 - reader_writer.excelReader -INFO - ********************  Consol Error ************************ 
+2018-12-24 08:25:44,164 - reader_writer.excelReader -WARN - Warning Message in Console:deprecation - HTML Imports is deprecated and will be removed in M73, around March 2019. Please use ES modules instead. See https://www.chromestatus.com/features/5144752345317376 for more details.
+2018-12-24 08:25:44,164 - reader_writer.excelReader -WARN - Warning Message in Console:https://maps.googleapis.com/maps-api-v3/api/js/35/6/util.js 218:47 "Google Maps JavaScript API warning: RetiredVersion https://developers.google.com/maps/documentation/javascript/error-messages#retired-version"
+2018-12-24 08:25:44,165 - reader_writer.excelReader -INFO - Consol Error verified successfully
+2018-12-24 08:25:44,945 - reader_writer.excelReader -INFO - Status of Console Error 1
+2018-12-24 08:25:44,947 - reader_writer.excelReader -INFO - ********************  Verify Menu ************************ 
+2018-12-24 08:26:08,640 - reader_writer.excelReader -INFO - Status of Verify Menu 1
+2018-12-24 08:26:08,640 - reader_writer.excelReader -INFO - ********************  Verify Career ************************ 
+2018-12-24 08:26:09,031 - reader_writer.excelReader -INFO - Status of Verify Career 2
+2018-12-24 08:26:09,031 - reader_writer.excelReader -INFO - ********************  Verify Gallery ************************ 
+2018-12-24 08:26:15,246 - reader_writer.excelReader -INFO - Status of Verify Gallery 1
+2018-12-24 08:26:15,247 - reader_writer.excelReader -INFO - ********************  Verify Menu Item ************************ 
+2018-12-24 08:26:43,651 - reader_writer.excelReader -INFO - Status of Verify Menu Item 1
+2018-12-24 08:26:43,651 - reader_writer.excelReader -INFO - ******************** Add Product ************************ 
+2018-12-24 08:27:00,871 - reader_writer.excelReader -INFO - Status of Add Product 1
+2018-12-24 08:27:00,872 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
+2018-12-24 08:27:16,541 - reader_writer.excelReader -INFO - Status of Add Product 1
+2018-12-24 08:27:16,542 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
+2018-12-24 08:27:32,181 - reader_writer.excelReader -INFO - Status of Add Product 1
+2018-12-24 08:27:32,182 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
+2018-12-24 08:27:47,652 - reader_writer.excelReader -INFO - Status of Add Product 1
+2018-12-24 08:27:47,652 - reader_writer.excelReader -INFO - ********************  Verify Summary ************************ 
+2018-12-24 08:27:51,450 - reader_writer.excelReader -INFO - Status of Verify Summary 1
+2018-12-24 08:27:51,450 - reader_writer.excelReader -INFO - ******************** Add Edit Product ************************ 
+2018-12-24 08:28:03,599 - reader_writer.excelReader -INFO - Status of Add Edit Product 1
+2018-12-24 08:28:03,600 - reader_writer.excelReader -INFO - ******************** Remove Edit Product ************************ 
+2018-12-24 08:28:15,433 - reader_writer.excelReader -INFO - Status of Remove Edit Product 1
+2018-12-24 08:28:15,433 - reader_writer.excelReader -INFO - ********************  Verify Summary ************************ 
+2018-12-24 08:28:19,150 - reader_writer.excelReader -INFO - Status of Verify Summary 1
+2018-12-24 08:28:19,150 - reader_writer.excelReader -INFO - ******************** Verify Delivery Time ************************ 
+2018-12-24 08:28:19,633 - reader_writer.excelReader -INFO - Status of Verify Delivery Time 0
+2018-12-24 08:28:19,633 - reader_writer.excelReader -INFO - ******************** Delete Product ************************ 
+2018-12-24 08:28:23,112 - reader_writer.excelReader -INFO - Status of Delete Product 1
+2018-12-24 08:28:23,113 - reader_writer.excelReader -INFO - ******************** Delete All Product ************************ 
+2018-12-24 08:28:31,253 - reader_writer.excelReader -INFO - Status of Delete All Product 1
+2018-12-24 08:28:31,254 - reader_writer.excelReader -INFO - ******************** Verify Summary ************************ 
+2018-12-24 08:28:34,605 - reader_writer.excelReader -INFO - Status of verify Summary 1
+2018-12-24 08:28:34,605 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
+2018-12-24 08:28:54,746 - reader_writer.excelReader -INFO - Status of Add Product 1
+2018-12-24 08:28:54,747 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
+2018-12-24 08:29:10,337 - reader_writer.excelReader -INFO - Status of Add Product 1
+2018-12-24 08:29:10,338 - reader_writer.excelReader -INFO - ******************** Verify Checkout for takeout with edit ************************ 
+2018-12-24 08:29:51,471 - reader_writer.excelReader -INFO - Status of checkout for Takeout 1
+2018-12-24 08:29:51,471 - reader_writer.excelReader -INFO - ******************** Delete All Product ************************ 
+2018-12-24 08:29:57,231 - reader_writer.excelReader -INFO - Status of Delete All Product 1
+2018-12-24 08:29:57,232 - reader_writer.excelReader -INFO - ******************** verify Delivery ************************ 
+2018-12-24 08:30:20,031 - reader_writer.excelReader -INFO - Status of Verify Delivery 1
+2018-12-24 08:30:20,032 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
+2018-12-24 08:30:35,592 - reader_writer.excelReader -INFO - Status of Add Product 1
+2018-12-24 08:30:35,592 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
+2018-12-24 08:30:55,583 - reader_writer.excelReader -INFO - Status of Add Product 1
+2018-12-24 08:30:55,583 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
+2018-12-24 08:31:11,082 - reader_writer.excelReader -INFO - Status of Add Product 1
+2018-12-24 08:31:11,082 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
+2018-12-24 08:31:26,846 - reader_writer.excelReader -INFO - Status of Add Product 1
+2018-12-24 08:31:26,847 - reader_writer.excelReader -INFO - ******************** Add Edit Product ************************ 
+2018-12-24 08:31:45,339 - reader_writer.excelReader -INFO - Status of Add Edit Product 1
+2018-12-24 08:31:45,340 - reader_writer.excelReader -INFO - ******************** Remove Edit Product ************************ 
+2018-12-24 08:32:03,922 - reader_writer.excelReader -INFO - Status of Remove Edit Product 1
+2018-12-24 08:32:03,922 - reader_writer.excelReader -INFO - ******************** Delete Product ************************ 
+2018-12-24 08:32:07,354 - reader_writer.excelReader -INFO - Status of Delete Product 1
+2018-12-24 08:32:07,355 - reader_writer.excelReader -INFO - ******************** Verify Delivery Time ************************ 
+2018-12-24 08:32:07,622 - reader_writer.excelReader -INFO - Status of Verify Delivery Time 0
+2018-12-24 08:32:07,622 - reader_writer.excelReader -INFO - ******************** Verify Summary for Delivery ************************ 
+2018-12-24 08:32:11,653 - reader_writer.excelReader -INFO - Status of Verify Summary Delivery 1
+2018-12-24 08:32:11,654 - reader_writer.excelReader -INFO - ******************** Verify Checkout for Delivery ************************ 
+2018-12-24 08:32:21,857 - reader_writer.excelReader -ERROR - Incorrect takeout time is appearing on the screen
+2018-12-24 08:32:26,536 - reader_writer.excelReader -INFO - Status of checkout for Delivery 0
+2018-12-24 08:32:26,537 - reader_writer.excelReader -INFO - ******************** Delete All Product ************************ 
+2018-12-24 08:32:27,703 - reader_writer.excelReader -INFO - Status of Delete All Product 1
+2018-12-24 08:32:27,703 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************ 
+2018-12-24 08:32:43,419 - reader_writer.excelReader -INFO - Status of Add Product 1
+2018-12-24 08:32:43,419 - reader_writer.excelReader -INFO - ********************  Verify Add Product ************************
+2018-12-24 08:32:58,743 - reader_writer.excelReader -INFO - Status of Add Product 1
+2018-12-24 08:32:58,743 - reader_writer.excelReader -INFO - ******************** Add Edit Product ************************
+2018-12-24 08:33:10,625 - reader_writer.excelReader -INFO - Status of Add Edit Product 1
+2018-12-24 08:33:10,625 - reader_writer.excelReader -INFO - ******************** Click on takeout ************************
+2018-12-24 08:33:13,950 - reader_writer.excelReader -INFO - Status of Click on Takeout 1
+2018-12-24 08:33:13,951 - reader_writer.excelReader -INFO - ******************** Verify Checkout for takeout ************************
+2018-12-24 08:33:59,086 - reader_writer.excelReader -INFO - Status of checkout for Takeout 1
+2018-12-24 08:33:59,086 - reader_writer.excelReader -INFO - ******************** Reserve A Table ************************
+2018-12-24 08:34:47,761 - reader_writer.excelReader -INFO - Status of Reserve A Table 1
+2018-12-24 08:34:47,761 - reader_writer.excelReader -INFO - ******************** verify timeslot for reserve a table ************************
+2018-12-24 08:35:03,474 - reader_writer.excelReader -ERROR - Incorrect date is apeparing for City: New York or user is not able to pick date
+2018-12-24 08:35:03,749 - reader_writer.excelReader -INFO - Status of Time for Reserve A Table 0
+2018-12-24 08:35:03,750 - reader_writer.excelReader -INFO - ******************** Closing Browser ************************
+2018-12-24 08:35:03,859 - reader_writer.excelReader -INFO - Browser Closed successfully
+2018-12-24 08:35:03,860 - reader_writer.excelReader -INFO - Execution Complete for template Template_6
+2018-12-24 08:35:03,860 - reader_writer.excelReader -INFO - Execution Complete for client The Country Caf
