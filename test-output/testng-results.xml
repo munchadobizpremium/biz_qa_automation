@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Failed suite [Default suite]" duration-ms="228581" started-at="2019-02-16T13:30:12Z" finished-at="2019-02-16T13:34:00Z">
+  <suite name="Failed suite [Default suite]" duration-ms="229028" started-at="2019-02-17T13:30:12Z" finished-at="2019-02-17T13:34:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="228581" started-at="2019-02-16T13:30:12Z" finished-at="2019-02-16T13:34:00Z">
+    <test name="Default test" duration-ms="229028" started-at="2019-02-17T13:30:12Z" finished-at="2019-02-17T13:34:01Z">
       <class name="suit.runner">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:suit.runner@70e9c95d]" name="Setup" is-config="true" duration-ms="2695" started-at="2019-02-16T13:30:09Z" finished-at="2019-02-16T13:30:12Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:suit.runner@70e9c95d]" name="Setup" is-config="true" duration-ms="2478" started-at="2019-02-17T13:30:10Z" finished-at="2019-02-17T13:30:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="Runner()[pri:0, instance:suit.runner@70e9c95d]" name="Runner" duration-ms="228559" started-at="2019-02-16T13:30:12Z" finished-at="2019-02-16T13:34:00Z">
+        <test-method status="PASS" signature="Runner()[pri:0, instance:suit.runner@70e9c95d]" name="Runner" duration-ms="229010" started-at="2019-02-17T13:30:12Z" finished-at="2019-02-17T13:34:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Runner -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:suit.runner@70e9c95d]" name="getResult" is-config="true" duration-ms="1" started-at="2019-02-16T13:34:00Z" finished-at="2019-02-16T13:34:00Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:suit.runner@70e9c95d]" name="getResult" is-config="true" duration-ms="2" started-at="2019-02-17T13:34:01Z" finished-at="2019-02-17T13:34:01Z">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:suit.runner@70e9c95d]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-02-16T13:34:00Z" finished-at="2019-02-16T13:34:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:suit.runner@70e9c95d]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-02-17T13:34:02Z" finished-at="2019-02-17T13:34:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
